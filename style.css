@@ -1,4 +1,64 @@
 body {
     display:flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height:25px;
+}
+
+.right{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.left{
+    font-weight: 800;
+}
+
+.one {
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    padding: 30px 100px;
+    gap: 40px;
+}
+
+.left2{
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 0
+}
+
+.right2{
+    flex:1 1 0;
+    background-color: gray;
+    display:flex;
+}
+
+.awesome{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.placeholder{
+    margin:auto;
 }
