@@ -39,12 +39,14 @@ a{
     display:flex;
     padding: 30px 100px;
     gap: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .left2{
     display:flex;
     flex-direction: column;
-    flex: 1 1 0;
+    flex-basis: 400px;
     margin: 100px 0px;
 }
 
@@ -107,7 +109,7 @@ a{
 
 .cards{
     display: flex;
-    padding: 25px 250px 100px 250px;
+    padding: 25px 250px 50px 250px;
     gap: 25px;
 }
 
@@ -134,4 +136,63 @@ a{
     margin: 5px;
     width: 125px;
     height:125px;
+}
+
+.three{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 10px 200px;
+}
+
+.thor{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+    padding: 10px 200px;
+}
+
+.four{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluebox{
+    display: flex;
+    background-color: #3882F6;
+    padding: 10px 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    gap: 40px;
+}
+
+.signup2{
+    padding: 10px;
+    margin: 10px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+}
+
+.call, .thatbutton {
+    color: white;
+}
+
+.call {
+    font-size:24px;
 }
